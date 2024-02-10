@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <link rel="shortcut icon" href="images/functionlogo.ico" type="image/x-icon">
+    <!-- bootstrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="brand">فانکشن</div>
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="posts.html">مطالب</a></li>
+            <li><a href="category.html">دسته بندی</a></li>
+            <li><a href="contact.html">ارتباط با ما</a></li>
+            <li><a href="about.html">درباره ما</a></li>
+        </ul>
+        <div class="logon btn-group" role="group">
+            <a href="login.html" class="btn btn-outline-secondary text-dark">ورود</a>
+            <a href="register.html" class="btn btn-secondary">ثبت نام</a>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="container-md m-auto mt-3 mb-3">
+            <div class="row justify-content-between">
+                <!-- post -->
+                <div class="col-md-9 p-3 post-segment">
+                    <div class="row align-items-center">
+                        <div class="text-wrap col-md-6">
+                            <h2 class="fs-1"><b>توابع تو درتو </b></h2>
+                        </div>
+                        <div class="detail-head-img col-md-6">
+                            <img src="images/nested-function.jpeg" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- post content -->
+                    <div class="p-2 content-segment">
+                        <div class="text-wrap">
+                            <h3><strong class="bg-warning p-1 rounded fs-2">#</strong>
+                                اشنایی با توابع تو درتو در پایتون
+
+                            </h3>
+                            <br><b></b>
+                            <p>
+                                «توابع تو در تو در پایتون» (Nested Function in Python)، یکی از مفاهیم جذاب در
+                                برنامه‌نویسی است که اشاره به تعریف یک تابع درون تابعی دیگر دارد. این توابع تو در تو که
+                                با نام «توابع درونی» (Inner Functions) نیز شناخته می شوند، توانایی بی‌نظیری در دسترسی به
+                                متغیرهای محدوده خود دارند. به بیان ساده‌تر، آن‌ها می‌توانند از منابع تابع والد خود
+                                بهره‌مند شوند. توابع تو در تو در پایتون یکی از ابزارهای قدرتمند این زبان محسوب می‌شوند و
+                                به ما امکان می‌دهند تابعی را درون تابعی دیگر تعریف کنیم. این مفهوم با استفاده از
+                                جای‌گذاری یک تابع درون تابعی دیگر، کمک می‌کند تا کدهای منظم‌تر و مدیریت‌پذیرتری را ایجاد
+                                کنیم. به لطف وجود مفهوم Nested Functions، کدها خواناتر و همچنین بهینه‌تر می‌شوند. در این
+                                مطلب از مجله فرادرس توضیح می‌دهیم که توابع تو در تو در پایتون چیست و به چه دلیلی از آن
+                                استفاده می‌کنیم.
+
+
+                            </p>
+                            <h3><strong class="bg-warning p-1 rounded fs-2">#</strong>
+                                توابع در پایتون
+                            </h3>
+                            <p>
+                                «توابع» (Functions) نقش مهمی را در برنامه‌نویسی به زبان پایتون بر عهده دارند. فانکشن‌ها
+                                در واقع قطعه کدهایی با قابلیت استفاده مجدد هستند که می‌توانند وظایف مشخصی را انجام دهند.
+                                پس از تعریف تابع، با استفاده از نام آن و - در صورت لزوم - ارسال آرگومان‌هایی در پرانتز،
+                                می‌توانیم آن را فراخوانی کنیم. برای انجام وظایف مختلف می‌توانیم توابع متعددی را تعریف
+                                کنیم که هر یک وظیفه خاص خود را دارند. با این کار کدهایمان راحت‌تر سازمان‌دهی و ساختارمند
+                                می‌شوند. مستند‌سازی و تایپ‌دهی تابع، مؤلفه‌های مهمی برای خوانایی کدها و دیباگ راحت‌تر آن
+                                به‌شمار می‌روند، به‌خصوص هنگامی‌که با پروژه‌های بزرگ سر و کار داریم.
+
+                                <h5 class="text-danger">مثال</h5>
+                                <pre class="p-3"><code>
+def outer_function(x):
+    def inner_function(y):
+        return x + y
+    return inner_function
+                                    
+add_five = outer_function(5)
+print(add_five(3))</code>
+                                </pre>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- comment segment -->
+                    <small>دیدگاه خود را بنویسید</small> - <small>۲ دیدگاه</small>
+                    <div class="comment-segment">
+                        <form class="m-3">
+                            <textarea name="comment" rows="10" class="form-control" required></textarea>
+                            <button class="btn btn-dark mt-3">ثبت</button>
+                        </form>
+                        <div class="card m-2">
+                            <div class="card-header">
+                                <span class="text-muted">علی</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-wrap">
+                                    از این مطالب بیشتر بگذارید. عالی
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-header">
+                                <span class="text-muted">پوری</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-wrap" style="direction: rtl;">
+                                    خیلی جالب بود
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ads -->
+                <div class="col-md-3 ads ads-segment">
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-links">
+            <ul class="post-links">
+                <div class="mb-2"><b>مطالب مفید</b></div>
+                <li><a href="detail2.html">python 3.12</a></li>
+                <li><a href="detail0.html">three dots</a></li>
+                <li><a href="detail1.html">unittest</a></li>
+            </ul>
+            <ul class="category-links">
+                <div class="mb-2"><b>دسته بندی ها </b></div>
+                <li><a href="python-posts.html">پایتون</a></li>
+                <li><a href="linux-posts.html">لینوکس</a></li>
+                <li><a href="security-posts.html">سایبر سکیوریتی</a></li>
+            </ul>
+            <div class="logo">
+                <div class="brand text-light">FUNCTION</div>
+            </div>
+        </div>
+        <p class="text-center mt-5 right-reserved">تمام حقوق این وبسایت محفوظ است</p>
+    </footer>
+
+
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

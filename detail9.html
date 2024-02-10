@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <link rel="shortcut icon" href="images/functionlogo.ico" type="image/x-icon">
+    <!-- bootstrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="brand">فانکشن</div>
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="posts.html">مطالب</a></li>
+            <li><a href="category.html">دسته بندی</a></li>
+            <li><a href="contact.html">ارتباط با ما</a></li>
+            <li><a href="about.html">درباره ما</a></li>
+        </ul>
+        <div class="logon btn-group" role="group">
+            <a href="login.html" class="btn btn-outline-secondary text-dark">ورود</a>
+            <a href="register.html" class="btn btn-secondary">ثبت نام</a>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="container-md m-auto mt-3 mb-3">
+            <div class="row justify-content-between">
+                <!-- post -->
+                <div class="col-md-9 p-3 post-segment">
+                    <div class="row align-items-center">
+                        <div class="text-wrap col-md-6">
+                            <h2 class="fs-1"><b> قوانین نامگذاری در پایتون </b></h2>
+                        </div>
+                        <div class="detail-head-img col-md-6">
+                            <img src="images/python-naming.png" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- post content -->
+                    <div class="p-2 content-segment">
+                        <div class="text-wrap">
+                            <p>نام گذاری متغیرها، توابع، کلاس ها و سایر عناصر در پایتون باید مطابق با قوانین خاصی باشد.
+                                این قوانین به خوانایی و درک بهتر کد کمک می کنند.</p>
+
+                            <p>قوانین نام گذاری در پایتون عبارتند از:</p>
+
+                            <ul>
+                                <li>نام ها باید از حروف الفبای انگلیسی، اعداد و کاراکترهای زیر استفاده کنند:
+                                    * زیرخط (_)
+                                    * نقطه (.)
+                                </li>
+                                <li>نام ها نباید با اعداد شروع شوند.
+                                </li>
+                                <li>نام ها نباید از کلمات کلیدی پایتون استفاده کنند.
+                                </li>
+                                <li>نام ها باید مختصر و واضح باشند.
+                            </ul>
+
+                            <pre><code>
+# متغیر
+my_variable = 10
+
+# تابع
+def my_function():
+  pass
+
+# کلاس
+class MyClass:
+  pass
+</code></pre>
+
+                            <pre><code>
+# متغیر
+10_variable = 10
+
+# تابع
+def function():
+  pass
+
+# کلاس
+class Class:
+  pass
+</code></pre>
+
+                            <p>توصیه ها برای نام گذاری در پایتون:</p>
+
+                            <ul>
+                                <li>از نام های معنادار استفاده کنید.
+                                </li>
+                                <li>از حروف کوچک استفاده کنید.
+                                </li>
+                                <li>از زیرخط برای جدا کردن کلمات در یک نام استفاده کنید.
+                            </ul>
+
+                            <pre><code>
+# variable
+total_score = 100
+
+# function
+calculate_area()
+
+# class
+Rectangle
+</code></pre>
+
+                            <pre><code>
+# variable
+my_variable = 10
+
+# function
+my_function()
+
+# class
+my_class
+</code></pre>
+
+                            <pre><code>
+# variable
+my_variable_name = 10
+
+# function
+my_function_name()
+
+# class
+my_class_name
+</code></pre>
+
+                            <p>توصیه های اضافی برای نام گذاری در پایتون:</p>
+
+                            <ul>
+                                <li>از نام های یک کلمه ای برای متغیرهای ساده استفاده کنید.
+                                </li>
+                                <li>از نام های چند کلمه ای برای متغیرها، توابع و کلاس های پیچیده تر استفاده کنید.
+                                </li>
+                                <li>از زیرخط برای جدا کردن کلمات در یک نام استفاده کنید.
+                                </li>
+                                <li>از نام های معنادار استفاده کنید تا کد خود را برای خوانندگان آسان تر کنید.
+                            </ul>
+
+                            <p>با رعایت قوانین نام گذاری در پایتون می توانید کد خود را خواناتر و قابل درک تر کنید.</p>
+
+                        </div>
+                    </div>
+                    <!-- comment segment -->
+                    <small>دیدگاه خود را بنویسید</small> - <small>۲ دیدگاه</small>
+                    <div class="comment-segment">
+                        <form class="m-3">
+                                <textarea name="comment" rows="10" class="form-control" required></textarea>
+                            <button class="btn btn-dark mt-3">ثبت</button>
+                        </form>
+                        <div class="card m-2">
+                            <div class="card-header">
+                                <span class="text-muted">علی</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-wrap">
+                                    از این مطالب بیشتر بگذارید. عالی
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-header">
+                                <span class="text-muted">پوری</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-wrap" style="direction: rtl;">
+                                    خیلی جالب بود
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ads -->
+                <div class="col-md-3 ads ads-segment">
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-links">
+            <ul class="post-links">
+                <div class="mb-2"><b>مطالب مفید</b></div>
+                <li><a href="detail2.html">python 3.12</a></li>
+                <li><a href="detail0.html">three dots</a></li>
+                <li><a href="detail1.html">unittest</a></li>
+            </ul>
+            <ul class="category-links">
+                <div class="mb-2"><b>دسته بندی ها </b></div>
+                <li><a href="python-posts.html">پایتون</a></li>
+                <li><a href="linux-posts.html">لینوکس</a></li>
+                <li><a href="security-posts.html">سایبر سکیوریتی</a></li>
+            </ul>
+            <div class="logo">
+                <div class="brand text-light">FUNCTION</div>
+            </div>
+        </div>
+        <p class="text-center mt-5 right-reserved">تمام حقوق این وبسایت محفوظ است</p>
+    </footer>
+
+
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

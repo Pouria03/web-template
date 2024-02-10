@@ -1,0 +1,15 @@
+main img{
+    order: 2;
+}
+
+main p{
+    border-top: #525761 3px dotted;
+    border-right: #525761 3px dotted;
+    border-top-right-radius: 12px;
+}
+
+@media(max-width: 600px){
+    main p{
+        border: none;
+    }
+}

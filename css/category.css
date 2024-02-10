@@ -1,0 +1,10 @@
+.cat-card{
+    border-radius: 10px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.cat-card:hover{
+    box-shadow: 0 .5px 5px rgb(148, 142, 142);
+}
+

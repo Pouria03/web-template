@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function | فانکشن</title>
+    <link rel="shortcut icon" href="images/functionlogo.ico" type="image/x-icon">
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="brand">فانکشن</div>
+        <ul>
+            <li><a href="index.html" class="text-secondary p-1 border-bottom border-2">خانه</a></li>
+            <li><a href="posts.html">مطالب</a></li>
+            <li><a href="category.html">دسته بندی</a></li>
+            <li><a href="contact.html">ارتباط با ما</a></li>
+            <li><a href="about.html">درباره ما</a></li>
+        </ul>
+        <div class="logon btn-group" role="group">
+            <a href="login.html" class="btn btn-outline-secondary text-dark">ورود</a>
+            <a href="register.html" class="btn btn-secondary">ثبت نام</a>
+        </div>
+    </header>
+    <main>
+        <!-- wellcome section -->
+        <section class="container wellcome-section">
+            <img src="images/function-banner.jpeg" alt="">
+            <div class="description">
+                <div class="mb-3 d-block mb-5 small-slogan text-muted">بروز باش...</div>
+                <h2>مطالب دنیای کامپیوتر و کدنویسی</h2>
+                <div class="input-group search">
+                    <button class="input-group-text">جستجو</button>
+                    <input class="form-control" type="text" placeholder="دنبال چه مطلبی هستید">
+                </div>
+            </div>
+        </section>
+        <!-- first section (ads and carousel) -->
+        <section class="container-lg first-section">
+            <h3 class="text-center">مطالب<span class="section-title">پیشنهادی</span></h3>
+            <div class="slider-ads">
+                <!-- carousel (slider) -->
+                <div id="carouselExample" class="carousel slide w-70 m-auto rounded shadow-md">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="detail19.html">
+                                <img src="images/python-encap.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="detail18.html">
+                                <img src="images/nested-function.jpeg" class="d-block w-100 img-fluid" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="detail17.html">
+                                <img src="images/date.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- ads -->
+                <div class="ads">
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- second section -->
+        <section class="container-md second-section">
+            <h3 class="text-center">مطالب<span class="section-title"> جدید</span></h3>
+            <div class="post-horizontal-list">
+                <div class="post-card">
+                    <img src="images/bs.png" alt="">
+                    <div class="item-description">
+                        <h5 class="post-card-title"><a href="detail16.html"> beautifulsoup چیست</a></h5>
+                        <p class="text-wrap text-muted">
+                            چطوی باید صفحات وب را اسکرپ کنیم
+                        </p>
+                        <small class="text-muted">۶ ماه پیش</small>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <img src="images/web-scrape.jpg" alt="">
+                    <div class="item-description">
+                        <h5 class="post-card-title"><a href="detail15.html"> وب اسکرپینگ چیست</a></h5>
+                        <p class="text-wrap text-muted">
+                            WEB SCRAPING ?
+                        </p>
+                        <small class="text-muted">۶ ماه پیش</small>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <img src="images/vim.png" alt="">
+                    <div class="item-description">
+                        <h5 class="post-card-title"><a href="detail4.html">ادیتور vim چیست</a></h5>
+                        <p class="text-wrap text-muted">
+                            نگاهی به ادیوتر vim در لینوکس
+                        </p>
+                        <small class="text-muted">۷ هفته پیش</small>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <img src="images/linux-intro.png" alt="">
+                    <div class="item-description">
+                        <h5 class="post-card-title"><a href="detail2.html">مفاهیم اصلی لینوکس</a></h5>
+                        <p class="text-wrap text-muted">
+                            مفاهیم اساسی لینوکس
+                        </p>
+                        <small class="text-muted">۷ هفته پیش</small>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <img src="images/linux-file-s.jpeg" alt="">
+                    <div class="item-description">
+                        <h5 class="post-card-title"><a href="detail13.html">ساختار فایل لینوکس</a></h5>
+                        <p class="text-wrap text-muted">
+                            ساختار فایل لینوکس چگونه است
+                        </p>
+                        <small class="text-muted">۷ هفته پیش</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <ul class="post-links">
+                <div class="mb-2"><b>مطالب مفید</b></div>
+                <li><a href="detail2.html">python 3.12</a></li>
+                <li><a href="detail0.html">three dots</a></li>
+                <li><a href="detail1.html">unittest</a></li>
+            </ul>
+            <ul class="category-links">
+                <div class="mb-2"><b>دسته بندی ها </b></div>
+                <li><a href="python-posts.html">پایتون</a></li>
+                <li><a href="linux-posts.html">لینوکس</a></li>
+                <li><a href="security-posts.html">سایبر سکیوریتی</a></li>
+            </ul>
+            <div class="logo">
+                <div class="brand text-light">FUNCTION</div>
+            </div>
+        </div>
+        <p class="text-center mt-5 right-reserved">تمام حقوق این وبسایت محفوظ است</p>
+    </footer>
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

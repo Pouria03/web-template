@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <link rel="shortcut icon" href="images/functionlogo.ico" type="image/x-icon">
+    <!-- bootstrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="brand">فانکشن</div>
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="posts.html">مطالب</a></li>
+            <li><a href="category.html">دسته بندی</a></li>
+            <li><a href="contact.html">ارتباط با ما</a></li>
+            <li><a href="about.html">درباره ما</a></li>
+        </ul>
+        <div class="logon btn-group" role="group">
+            <a href="login.html" class="btn btn-outline-secondary text-dark">ورود</a>
+            <a href="register.html" class="btn btn-secondary">ثبت نام</a>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="container-md m-auto mt-3 mb-3">
+            <div class="row justify-content-between">
+                <!-- post -->
+                <div class="col-md-9 p-3 post-segment">
+                    <div class="row align-items-center">
+                        <div class="text-wrap col-md-6">
+                            <h2 class="fs-1"><b> نصب لینوکس</b></h2>
+                        </div>
+                        <div class="detail-head-img col-md-6">
+                            <img src="images/linux-install.jpeg" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- post content -->
+                    <div class="p-2 content-segment">
+                        <div class="text-wrap">
+                            <h3><strong class="bg-warning p-2 rounded fs-1">#</strong> مراحل نصب لینوکس</h3>
+                            <br>
+                            <p>
+                            1. دانلود ایمیج ISO: ابتدا، ایمیج ISO مربوط به توزیع مورد نظر خود را از وب‌سایت رسمی آن
+                            دانلود کنید. برای مثال، اگر می‌خواهید Ubuntu را نصب کنید، می‌توانید ایمیج ISO را از وب‌سایت
+                            رسمی Ubuntu دانلود کنید.
+                            <br><br>
+                            2. ساخت USB بوتیبل: بعد از دانلود ایمیج ISO، باید یک USB بوتیبل بسازید. برای این کار،
+                            می‌توانید از نرم‌افزار‌هایی مانند Rufus یا Etcher استفاده کنید.
+                            <br><br>
+                            3. تنظیم BIOS یا UEFI: بعد از ساخت USB بوتیبل، باید کامپیوتر خود را ری‌استارت کنید و
+                            وارد تنظیمات BIOS یا UEFI شوید. در این قسمت، باید ترتیب بوت را تغییر دهید تا کامپیوتر از روی
+                            USB بوت شود.
+                            <br><br>
+                            4. نصب لینوکس: در این مرحله، باید از روی USB بوت کنید و دستورالعمل‌های مربوط به نصب
+                            لینوکس را دنبال کنید. این شامل انتخاب زبان، تنظیمات شبکه، انتخاب نوع نصب (مانند نصب کنار
+                            ویندوز یا پاک کردن همه چیز و نصب لینوکس)، و انتخاب محل نصب است.
+                            <br><br>
+                            5. راه‌اندازی اولیه: پس از نصب، کامپیوتر خود را ری‌استارت کنید و از روی هارد دیسک بوت
+                            کنید. سپس، باید راه‌اندازی اولیه را انجام دهید، از جمله تنظیمات کاربر و زمان.
+                            <br><br>
+                            لطفاً توجه داشته باشید که این فقط یک راهنمای ساده است و بسته به توزیع لینوکس و سخت‌افزار
+                            شما، ممکن است نیاز به مراحل اضافی داشته باشید.
+                        </p>
+                        </div>
+                    </div>
+                    <!-- comment segment -->
+                    <small>دیدگاه خود را بنویسید</small> - <small>۲ دیدگاه</small>
+                    <div class="comment-segment">
+                        <form class="m-3">
+                                <textarea name="comment" rows="10" class="form-control" required></textarea>
+                            <button class="btn btn-dark mt-3">ثبت</button>
+                        </form>
+                        <div class="card m-2">
+                            <div class="card-header">
+                                <span class="text-muted">علی</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-wrap">
+                                    از این مطالب بیشتر بگذارید. عالی
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-header">
+                                <span class="text-muted">پوری</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-wrap" style="direction: rtl;">
+                                    خیلی جالب بود
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ads -->
+                <div class="col-md-3 ads ads-segment">
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                    <div class="card card-body mb-4">
+                        <h6 class="card-header">تبلیغات</h6>
+                        <p class="card-text text-wrap">
+                            تبلیغات شما اینجا قرار میگیرد.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-links">
+            <ul class="post-links">
+                <div class="mb-2"><b>مطالب مفید</b></div>
+                <li><a href="detail2.html">python 3.12</a></li>
+                <li><a href="detail0.html">three dots</a></li>
+                <li><a href="detail1.html">unittest</a></li>
+            </ul>
+            <ul class="category-links">
+                <div class="mb-2"><b>دسته بندی ها </b></div>
+                <li><a href="python-posts.html">پایتون</a></li>
+                <li><a href="linux-posts.html">لینوکس</a></li>
+                <li><a href="security-posts.html">سایبر سکیوریتی</a></li>
+            </ul>
+            <div class="logo">
+                <div class="brand text-light">FUNCTION</div>
+            </div>
+        </div>
+        <p class="text-center mt-5 right-reserved">تمام حقوق این وبسایت محفوظ است</p>
+    </footer>
+
+
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

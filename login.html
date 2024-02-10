@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function - login</title>
+    <link rel="shortcut icon" href="images/functionlogo.ico" type="image/x-icon">
+
+    <!-- bootstrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="brand">فانکشن</div>
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="posts.html">مطالب</a></li>
+            <li><a href="category.html">دسته بندی</a></li>
+            <li><a href="contact.html">ارتباط با ما</a></li>
+            <li><a href="about.html">درباره ما</a></li>
+        </ul>
+        <div class="logon btn-group" role="group">
+            <a href="login.html" class="btn btn-outline-secondary text-dark">ورود</a>
+            <a href="register.html" class="btn btn-secondary">ثبت نام</a>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <h2 class="main-title">ورود</h2>
+        <section class="container-md m-auto">
+            <form class="m-5 p-3">
+                <div class="row mb-4">
+                    <div class="mb-4 col-md-6">
+                        <label class="form-label" for="email">ادرس ایمیل </label>
+                        <input type="email" id="email" class="form-control" placeholder="example@email.com" required/>
+                    </div>
+
+                    <div class="mb-4 col-md-6">
+                        <label class="form-label" for="password">گذرواژه</label>
+                        <input type="password" id="password" class="form-control" placeholder="Password" required/>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                            <label class="form-check-label" for="form1Example3">مرا بخاطر بسپار</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 text-decoration-underline">
+                        <a href="#!">گذرواژه خود را فراموش کرده اید؟</a>
+                    </div>
+                </div>
+
+                <button data-mdb-ripple-init type="submit" class="btn btn-dark btn-block">ورود</button>
+            </form>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-links">
+            <ul class="post-links">
+                <div class="mb-2"><b>مطالب مفید</b></div>
+                <li><a href="detail2.html">python 3.12</a></li>
+                <li><a href="detail0.html">three dots</a></li>
+                <li><a href="detail1.html">unittest</a></li>
+            </ul>
+            <ul class="category-links">
+                <div class="mb-2"><b>دسته بندی ها </b></div>
+                <li><a href="python-posts.html">پایتون</a></li>
+                <li><a href="linux-posts.html">لینوکس</a></li>
+                <li><a href="security-posts.html">سایبر سکیوریتی</a></li>
+            </ul>
+            <div class="logo">
+                <div class="brand text-light">FUNCTION</div>
+            </div>
+        </div>
+        <p class="text-center mt-5 right-reserved">تمام حقوق این وبسایت محفوظ است</p>
+    </footer>
+
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

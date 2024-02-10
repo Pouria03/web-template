@@ -1,0 +1,16 @@
+.header-section{
+    background-color: #F8F9FA;
+}
+
+/* .post-card a{
+    color: white;
+}
+
+.post-card a:hover{
+    color: gray;
+} */
+
+.search-posts{
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+}

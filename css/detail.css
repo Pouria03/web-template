@@ -1,0 +1,14 @@
+.content-segment{
+    min-height: 100vh;
+}
+
+.comment-segment{
+    border-top: 1px solid rgb(153, 149, 149);
+}
+
+pre{
+    background-color: #2b2b3d;
+    color: white;
+    border-radius: 6px;
+    padding: 5px;
+}
